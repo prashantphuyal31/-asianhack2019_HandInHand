@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body >
+
+
+
+  <div class="conatiner-fluid">
+    <div class="row p-0 m-0" id="header">
+
+      <div class="col-lg-3"  id="logo"> 
+      <a class="nav-link text-center" href="index.html"><img src="images/header.png" class="title"></a>
+      </div>  
+          <ul class="nav nav-pills  col-lg-9" id="menu">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Home</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link " href="blooddonor.html" >BloodDonor</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="emg.html">Emergency Numbers</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="nearbyhospital.html">Nearby hospitals</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="nearbyambulance.html" >Nearby ambulance</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="contactus.html" >Contact us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#" style="margin-top: 5px; margin-bottom: 5px!important;" ><img src="images/emg.jpg" style="border-radius: 10px;margin-top:0px !important; height: 80px; width: 100px; "></a>
+  </li>
+</ul>
+      </div>
+  </div>
+
+<div class="conatiner-fluid ">
+      <div class="row m-0 p-0">
+        <div class="col-lg-6" id="vid"> <center>
+
+<h1>User Login</h1>
+          <form >
+                  PhoneNumber<br>
+                  <input type="text" name=""><br>
+                  Password<br>
+                  <input type="password" name=""><br>
+                  <button type="submit"  onclick="myFunction(event)">Login</button>
+        </form></div>
+        <div class="col-lg-6" id="viewlist" ><table border="1px solid" style="border-collapse:collapse; ">
+    <tr>
+      <th>Date</th>
+      <th>Donor</th>
+      <th>Receiver</th>
+      <th>Blood Type</th>
+    </tr>
+    <tr>
+      <td>2019/05/10  </td>
+      <td>Prashant Phuyal</td>
+      <td>Suman Rijal</td>
+      <td>A+</td>
+    </tr>
+    <tr>
+      <td>2019/05/12</td>
+      <td>Ram Bahadur</td>
+      <td>Shyam Kumar</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>2019/05/12</td>
+      <td>Janak Bajgain</td>
+      <td>Anil Shrestha</td>
+      <td>AB-</td>
+    </tr>
+    <tr>
+      <td>2019/05/13</td>
+      <td>Keshav Thapa</td>
+      <td>Sujal Maharjan</td>
+      <td>A-</td>
+    </tr>
+    <tr>
+      <td>2019/05/14</td>
+      <td>Raman Shah</td>
+      <td>Surya Dhamala</td>
+      <td>O+</td>
+    </tr>
+    <tr>
+      <td>2019/05/14</td>
+      <td>Ashma Bista</td>
+      <td>Astha Karki</td>
+      <td>AB-</td>
+    </tr>
+    <tr>
+      <td>2019/05/19</td>
+      <td>Bijay Lamichane</td>
+      <td>Sandip Prajapati</td>
+      <td>B-</td>
+    </tr>
+    <tr>
+      <td>2019/05/19</td>
+      <td>Salman Bhai</td>
+      <td>Ramesh Dai</td>
+      <td>AB+</td>
+    </tr>
+    <tr>
+      <td>2019/05/20</td>
+      <td>Bizay Bhatta</td>
+      <td>Manjil Panta</td>
+      <td>A+</td>
+    </tr>
+    <tr>
+      <td>2019/05/24</td>
+      <td>Suyog Thapa</td>
+      <td>Archana Ghimire</td>
+      <td>O-</td>
+    </tr>
+    <tr>
+      <td>2019/05/19</td>
+      <td>Rekha Sharma</td>
+      <td>Anish Subedi</td>
+      <td>B-</td>
+    </tr>
+    <tr>
+      <td>2019/05/24</td>
+      <td>Salon Basnet</td>
+      <td>Nischal Dangol</td>
+      <td>O+</td>
+    </tr>
+    
+
+  </table></div>
+        
+      </div>
+</div>
+
+<script>
+function myFunction(event) {
+  event.preventDefault();
+  document.getElementById("viewlist").style.display = "block";
+}</script>
+</body></html>

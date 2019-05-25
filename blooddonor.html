@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body >
+
+
+
+  <div class="conatiner-fluid">
+    <div class="row p-0 m-0" id="header">
+
+      <div class="col-lg-3"  id="logo"> 
+      <a class="nav-link text-center" href="index.html"><img src="images/header.png" class="title"></a>
+      </div>  
+          <ul class="nav nav-pills  col-lg-9" id="menu">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Home</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link " href="blooddonor.html" >BloodDonor</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="emg.html">Emergency Numbers</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="nearbyhospital.html">Nearby hospitals</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="nearbyambulance.html" >Nearby ambulance</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="contactus.html" >Contact us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#" style="margin-top: 5px; margin-bottom: 5px!important;" ><img src="images/emg.jpg" style="border-radius: 10px;margin-top:0px !important; height: 80px; width: 100px; "></a>
+  </li>
+</ul>
+      </div>
+  </div>
+
+
+
+<div class="conatiner-fluid">
+ <div class="row m-0 p-0" style="height: 50px;width:auto;"><div class="col-6"> <center><form action="list.html"><input type="Submit" name="" value="Receiver List" style="margin-top: 10px;height: 50px;width: 300px; background: tomato;border-radius: 10px;">
+ </form>
+</center></div>
+<div class="col-6">
+ <center><form action="reminder.html">
+ 	<input type="Submit" name="" value="Reminder" style="margin-top: 10px;margin-right: 0px; height: 50px;width: 300px; background: tomato;border-radius: 10px;"></form></center></div></div></div>
+</div>
+</body></html>
+
+
+  <div class="conatiner-fluid">
+    <div class="row" id="donor">
+    <div class="col-lg-6" >
+      <center>
+        <form id="bloodreq">
+        <h3>Blood Request</h3>
+           <label>FullName*</label> <br><input type="text" name=""><br>
+            BloodGroup*<br><select>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+            </select><br>
+            Blood Volume*(i.e 2 pint)<br><input type="text" name=""> <br>
+            Age*<br> <input type="number" name=""><br>
+            Phone number* <br><input type="number" name=""><br>
+            Address<br>  <input type="text" name=""><br>
+            Duration<br> <input type="number" name=""> to  <input type="number" name=""><br>
+            <button style="height: 50px;width: 250px;margin-top: 20px;"   id="element" onclick="myFunction(event)">Submit</button>
+        </form></center>
+    </div>
+
+
+    <div class="col-lg-6" id="sub_diagonal">
+
+      <table style="border-collapse: collapse; font-size: 15px;  "  id="distable" border="1px">
+        <tr>
+          <th style="width: 200px;">Name</th>
+          <th>Bood Group</th>
+          <th>Address</th>
+          <th style="width: 200px;">Phone Number</th>
+          <th>contact</th>
+          <th>Availability</th>
+        </tr>
+        <tr>
+          <td>Prashant Phuyal</td>
+          <td>A+</td>
+          <td>Goldhunga,Kathmandu</td>
+          <td>+977 9840061997</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> available</td>
+        </tr>
+        <tr>
+          <td>Janak Bajgain</td>
+          <td>B+</td>
+          <td>Nepaltar,Kathmandu</td>
+          <td>+977 9474582145</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> available</td>
+        </tr>
+        <tr>
+          <td>Suaman Rijal</td>
+          <td>o+</td>
+          <td>Gongabu,Kathmandu</td>
+          <td>+977 9845563834</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> Not-available</td>
+        </tr>
+        <tr>
+          <td>Alina Karki</td>
+          <td>A+</td>
+          <td>Kapan,Kathmandu</td>
+          <td>+977 9879632145</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> available</td>
+        </tr>
+        <tr>
+          <td>Ashok Chettri</td>
+          <td>A-</td>
+          <td>Goldhunga,Kathmandu</td>
+          <td>+977 9841569870</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> Not-available</td>
+        </tr>
+        <tr>
+          <td>Hari Rijal</td>
+          <td>AB-</td>
+          <td>Baniyatar,Kathmandu</td>
+          <td>+977 9803299294</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> available</td>
+        </tr>
+        <tr>
+          <td>Badri Kadel</td>
+          <td>O+</td>
+          <td>Basundhara,Kathmandu</td>
+          <td>+977 9710583979</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> available</td>
+        </tr>
+        <tr>
+          <td>Saroj Panta</td>
+          <td>A-</td>
+          <td>Chandragiri,Kathmandu</td>
+          <td>+977 9741298731</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> Not-available</td>
+        </tr>
+        <tr>
+          <td>Ayush Bidari</td>
+          <td>AB+</td>
+          <td>Naikap,Kathmandu</td>
+          <td>+977 9841287969</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> Not-available</td>
+        </tr>
+        <tr>
+          <td>Kenish KC</td>
+          <td>O+</td>
+          <td>Swaymbhu,Kathmandu</td>
+          <td>+977 9851075698</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> available</td>
+        </tr>
+       <!--  <tr>
+          <td>Amrit Timilsina</td>
+          <td>B-</td>
+          <td>Gothatar,Kathmandu</td>
+          <td>+977 9818596321</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> available</td>
+        </tr>
+        <tr>
+          <td>Dhiraj Dhakal</td>
+          <td>O-</td>
+          <td>Mulpani,Kathmandu</td>
+          <td>+977 9806559925</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> available</td>
+        </tr>
+        <tr>
+          <td>Ram Bahadur Magar</td>
+          <td>AB+</td>
+          <td>Balaju,Kathmandu</td>
+          <td>+977 9861589812</td>
+          <td><a class="nav-link" href="">Call</a></td>
+          <td> Not-available</td>
+        </tr> -->
+      </table>
+   
+  </div>
+ </div>
+</div>
+<div class="conatiner-fluid">
+    <div class="row p-0 m-0">
+        <div class="col-lg-6" id="recdon">
+          <center>
+          <h3>Donate Blood</h3><form action="">
+           <label>FullName*</label> <br><input type="text" name=""><br>
+            BloodGroup*<br><select>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+            </select><br>
+            Age*<br> <input type="number" name=""><br>
+            Phone number* <br><input type="number" name=""><br>
+            Password* <br><input type="number" name=""><br>
+            Address<br>  <input type="text" name=""><br>
+            Gender<br>Male <input type="radio" name="" style="height: 20px;width: 20px;">  Female <input type="radio" name="" style="height: 20px;width: 20px;">Others<input type="radio" name="" style="height: 20px;width: 20px;"><br>
+            Last Donated Date*<br><input type="text" name=""> <br>
+            <button style="height: 50px;width: 250px;margin-top: 20px;" onclick="myFunction2(event)">Submit</button>
+        </form></center>
+        </div>
+        <div class="col-lg-6" id="donorinfo"><center>
+          <h1>Doner Detail</h1><br>
+                   <input type="radio" name="" value="available">available<input type="radio" name="" value="available">not-available<br><br>
+                <img src="images/sum.jpg">
+                <h2><i class="fas fa-user"></i>Suman Rijal</h2><br>
+                    AB+<br>
+                    21<br>
+                   <i class="fas fa-phone-volume"></i> 9845563834<br>
+                   <i class="fas fa-map-marker-alt"></i> Gongabu,kathmandu<br>
+                   <i class="fas fa-venus-mars"></i> Male<br>
+                   <i class="fas fa-calendar-alt"></i> 2019-may-23
+                  </center>
+        </div>
+    </div>
+</div>
+      
+
+<script>
+function myFunction(event) {
+  event.preventDefault();
+  document.getElementById("sub_diagonal").style.display = "block";
+}
+function myFunction2(event) {
+  event.preventDefault();
+  document.getElementById("donorinfo").style.display = "block";
+}
+</script>
+</body>
+</html>
